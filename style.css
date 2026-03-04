@@ -1,0 +1,79 @@
+/* Fondo y tipografía */
+body {
+  background-color: #ffe4ec; /* rosa suave */
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  background-color: #e91e63; /* rosa fuerte */
+  text-align: center;
+  padding: 30px 0;
+}
+
+/* Hover en el título */
+header h1:hover {
+  color: #ffccde; /* rosa claro al pasar mouse */
+  cursor: pointer;
+}
+
+/* Contenido principal */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Imagen centrada y borde */
+figure {
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+img {
+  width: 400px;
+  border: 4px solid #e91e63; /* borde rosa */
+  border-radius: 6px;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+/* Pie de foto */
+figcaption {
+  font-size: 0.9em;
+  color: #555;
+  font-style: italic;
+}
+
+/* Títulos de secciones */
+h2 {
+  color: #e91e63;
+  border-bottom: 2px solid #e91e63;
+  padding-bottom: 5px;
+  transition: color 0.3s;
+}
+
+/* Hover en h2 */
+h2:hover {
+  color: #ff80ab;
+  cursor: pointer;
+}
+
+/* Lista de actividades */
+ol {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+li strong {
+  color: #c2185b;
+}
